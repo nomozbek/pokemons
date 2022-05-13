@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-light">
+  <main>
+    <div class="container">
+      <h2 class="pt-3 h4 text-center">Pokemons</h2>
+      <ul class="js-pokemons-lists d-flex justify-content-around flex-wrap">
+
+      </ul>
+    </div>
+  </main>
+
+  <template id="pokemon-templates">
+    <li class="card w-25 m-3">
+      <img class="pokemon-img card-img-top" src="https://via.placeholder.com/300/250">
+      <div class="card-body">
+        <h3 class="card-title h5 text-center">Card title</h3>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </li>
+  </template>
+
+  
+  <script src="./js/pokemons.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
